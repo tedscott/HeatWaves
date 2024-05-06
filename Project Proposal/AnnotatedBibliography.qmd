@@ -1,0 +1,70 @@
+---
+title: "Bibliography with Annotations"
+format: pdf
+editor: visual
+bibliography: [references.bib, citationExport-bams-d-18-0268.1.xml.bib]
+---
+
+## Climate and Atmosphere (Jan 2024+)
+
+[@white2023]
+
+An analysis of the unprecedented heatwave in the PNW in June 2021 looking at how well it was forecast (pretty well) in the days prior and what the impact was in several areas: human impact, marine, forest fire, ag yields, streamflow/hydrology and related landslides due to land change from fire an increased water from melting. NDVI for ag crops showed a marked decrease except for a few crop types. Also specifically addressed the highest temp recorded spot, Lytton, BC and the geographic setting in a dry, rocky valley. The increased likelihood due to climate change is a part of the paper (by Rachel) but also the challenge of exact attribution is significant. We know it is a likely catalyst, though. A key feature in the atmosphere was a "blocking high" and potentially "Arctic amplification" due to a reduced temp gradient from arctic to mid-latitude. More work needed to address causes and frequency.
+
+[@hoskins2015]
+
+This was a doozy of an introduction/review of some of the ideas implicated in extreme weather events in the extratropical regions. I barely got much out of it but it is clear that there is work to be done to connect with amplified Arctic warming, changes in Rossby Wave patterns, blocking, and the physics associated with the PDFs of temperature. Will have to revisit once I have learned more!
+
+[@mckinnon2016]
+
+Read for Rachel group meeting. The authors use a global database of temperatures (Tx and Tn) and focus on the distribution of those temperatures over 1980-2015 for the 30 - 60° N latitude band. They found that most of the distributions across stations do not change shape significantly (minimal change in variance, skew, kurtosis) but do shift positively (warmer mean), with some regional variation. They used quantile linear regression to look at trends across the quantiles for July & August. They also applied PCA to try to get at basis functions that captured the most variance (to compare with the distributional changes in mean/var/skew/kurt) and found that associated Legendre polynomials approximated the primary PCA modes well and would then be independent of the data for an unbiased comparison (apparently). In short, they see the signal of climate warming in the shift of the mean for Tx and Tn and discuss how the change (or not) in the variance regionally relates to extreme events (outliers).
+
+[@white2022]
+
+Could focusing on waveguides that constrain Rossby waves be easier and more successful that trying to forecast extreme events based on Rossby wave connections themselves? Especially when trying to predict events on the S2S time scale. Current evidence suggests persistence of Rossby waves results in quasi-stationary waves that lead to extreme events but our climate models struggle to predict this scenario. But we may have more luck predicting the physical processes that drive Rossby waveguides. On long timescales the relationship between waveguides and meridonally constrained Rossby waves is established but on shorter time scales (monthly/subseasonal) we only have hints of correlation. The authors suggest analysing waveguides in complex GCMs to consider the utility in predicting HWs. It might allow us to sort out how and why Rossby waves become" quasi-stationary, high amplitude, or both". They suggest avenues of research around the theory connecting waveguides -\> Rossby waves, incorporation into models, and perhaps using ML to detect and explain relationships and predictors. Finally, they encourage the researchers in this area to collaborate on both research and terminology.
+
+[@oppenheimer2007]
+
+Short paper criticizing the approach in the (at the time) IPCC report that inflates the confidence in consensus (premature consensus) around predictions for climate change impacts on temp, sea level rise, impacts, and mitigation costs as there is not a full accounting for the uncertainty in the used drivers/evidence applied. Suggests expert review and/or assigned ombudsmen to ensure consistency in reporting uncertainty across working groups especially in areas that are not well understood.
+
+[@barriopedro2023]
+
+Review paper on the current state of HW research. One key takeaway is that there isn't a clear and universal definition of a "heat wave" which inhibits agreement/connection across research approaches. The authors used "periods of at least 3 consecutive days with Tx above the local 95%-ile (1981-2010)" but this emphasizes warm season HWs. The key drivers that have been identified are summarized in figure 8 but also the non-stationary nature of the freq and magnitude of the drivers is a challenge, as is teasing them apart. Great summary of gaps/research areas that need further work around urban HW, marine HW, subseasonal forecasts, and the new efforts to use ML models to augment or replace process-based modeling. Paper is really too long to summarize here so prob should refer to it again.
+
+[@li2023]
+
+Paper compared the outputs of three CMIP6 models in simulations of warm-season marine HWs. Key finding: "By the end of the 21st century, the duration, accumulated heat stress and peak intensity show systematic increases under all the future emission scenarios considered. Conversely, heating rate and the priming period display systematic decreases in the tropics and subtropics". Shorter priming period means corals and kelp have less time to adapt to the rising SST. Some biases found in the modeling and they speculate that they are "caused by different model representations of atmospheric and oceanic processes including(a) cloud formation; (b) deep convection, precipitation and storms, (c) surface winds and associated oceanic heattransport, and (d) ENSO dynamics". Authors recommend using higher resolution models to dive into those processes better.
+
+[@domeisen2022]
+
+Review paper along the lines of Barriopedro (2023) but written in a more accessible language (at least for me) and in shorter format. Heatwave drivers are atmospheric circulation patterns (quasi-stationary waves/Rossby), soil moisture levels, SST anomalies. Can make predictions currently using forecasting models on the scale of \~ few weeks but not beyond that. HWs are expected to become more intense, last longer, and become more frequent, esp in mid-latitudes. In south Asia humid HWs are likely to be especially bad and wet bulb temps may exceed human tolerance in the near future while other areas of the tropics may perpetually be at the limit. There is more work to be done to incorporate the relevant drivers of HWs in models.
+
+[@li2022]
+
+Marine HWs and the impact on coral reefs have been increasing in freq and severity. The authors examine a series of metrics around duration, peak intensity, accumulated heat stress, and heating rates in a SST data set from 1985 - 2019 (CoralTemp x3.1) at a fine resolution of 0.05° x 0.05° and find some overall common features in "warm season" MHWs (increased freq, peak, duration) with some regional differences in accumulation and heating rates. Using multilinear regression and comparing coefficient values they determine that duration rather than magnitude (accumulation) is the primary driver. It is not clear if they normalized their data to avoid problems of scale in the coeffs in comparison. Notable is that they considered two definitions of a MHW event - Maximum Monthly Mean (MMM) as a threshold and also the 90th percentile of historical SSTs (90th %-ile of the 90 highest daily SSTs (3 months) from each year, per grid cell. Days above these thresholds counted as a MHW. They also defined the "year" as a heat stress year (HSY) running from March - Feb in the northern hemisphere and Sept - Aug in the southern. They hypothesize that due to the longer duration relative to potentially lower accumulation some marine ecosystems might have a chance to adapt, especially for regions with a decrease in the heating rate (not true for the northern hemisphere). Also, they caution that the data set they used came from multiple data sources so there could be some inconsistency so they call for a better data set.
+
+[@röthlisberger2023]
+
+The authors divide up the "drivers" of global temperature anomalies (T') into advection, adiabatic warming due to subsidence, diabatic heating (sensible heating?) by deriving a Lagrangian temp anomaly equation from the thermodynamic energy equation that lets them measure the relative contribution of terms related to these three processes. The first look at the PNW 2021 heat wave, and finding consistency, then apply it globally to see regional differences. They also look at the path and time taken for air parcels seen as being involved in the extreme heat and see differences in source distance and speed by region. They conclude that a Lagrangian analysis (following the air) rather than Eulerian (fixed in place) approach is needed to characterize the drivers and their strength. Missing for me is the role of moisture but maybe that is involved in the adiabatic and diabatic effects but I just don't know enough yet.
+
+[@salathé2023]
+
+Paper looks at the PNW and heat extremes since 1950. The find that the hottest days (85th %ile to 99th %ile) are not warming any faster than the median days (50th %ile) during the warm season. Then they use an ensemble WRF model from Mass (2022) for the PNW forced by 12 CMIP5 (RCP8.5) model outputs and find that projecting to 2100 the hottest days WILL experience greater warming rates than the median, depending on location.
+
+[@wehrli2019]
+
+Paper discusses the role of different suspected drivers of heat wave events by using case studies of a few recent events. The use an interesting approach of building the models up from ensembles with a single added component (e.g. soil moisture) to tease out the effect of each and the relative importance. For soil moisture and SST they used both data and prescriptive values in global models with CESM v1.2. They employed "nudging" for atmospheric circulation and wind from ERA-interim and used temperature from Berkeley Earth. For heat waves in regions far from mid-lat and equatorial oceans they found minimal contribution from SSTs, but for all they identify soil moisture and atmospheric circulation as the main drivers in addition to increased forcing from GHGs.
+
+[@luo2024]
+
+Authors track the centroid of heat waves in lat/long and over time to "follow" the heat wave event in 3D and assess frequency, duration, magnitude, and evolution/propagation spatially. The last bit is the especially important part. They used ERA5 as well as MERRA2 and NCEP2 reanalysis data to get at daily max at 2m height. They found that accumulated area of a heat wave is different regionally with more area in the mid-high latitudes in the northern hemisphere vs mid-lat in the southern hemisphere. They believe they are seeing an increase in frequency but a slowing of the moving speed of the heat wave centroid and use CMIP6 simulations to show that these changes are well correlated with increased GHGs and anthropogenic forcing. They found a good match between the metrics they measured from the reanalysis data and the change in those metrics in their simulations.
+
+[@zhang2023a]
+
+The authors model a physical mechanism for a limit on extreme temps at the surface in the mid-latitude land of the N Hemisphere, with a hypothesis that temps can rise until convective instability forces convection and subsequent precipitation, initiating cooling below the threshold. Their model uses $T_{500}$ (500 hPa temp) and some basic thermodynamics (Clausis-Clapyron eqn) and something called the moist static energy (MSE) to identify the point of convective instability and show that the $MSE_{500}$ peaks coincident with the max $T_{s}$ (and also CAPE convective available potential energy) and then use three recent HW events (PNW 2021, WEur 2019, Russ 2010) match their theory using ERA5 data. They find a nice connection with two drivers - an anticyclone (they used potential vorticity, and note that clockwise flow is an anticyclone in the N Hemi) and soil moisture deficit and discuss the relative connection with each driver for the three case study HWs. For the PNW they say that the $T_{500}$ anomaly alone explains the HW intensity from their theory so they say therefore soil moisture deficit played a minor role (without evidence, but just that the temp anomaly explains the $\Delta T$ ). They also connect with changing climate by suggesting the upper bound on $T_{s}$ should increase twice as fast as the global mean surface temp (GMST) although they say $T_{500}$ is increasing at the same rate as GMST. They suggest more research into $T_{500}$ warming is needed along with surface air-specific humidity.
+
+[@stainforth2013]
+
+The authors demonstrate a system for using weather data from stations (collected in a dataset "E-OBS" 0.5$^{\circ}$ x 0.5$^{\circ}$ for Europe) to measure climate change by building the CDF of a sliding 9 year time window and comparing two or more of these time windows. If the smallest change in probability for a given mean temperature (or min temp in winter) is still large over a wide span of years (e.g. 1954-1963 vs 1997-2006) then they assert this is a robust measure of a change in the probability of seeing a new max temperature, indicating a change. They use this approach to get around the non-stationarity of temp distributions under warming. They show that for some regions, like Bordeaux, the change is significant while for others, like Lisbon there is almost no change. The goal is to provide "useful" measures that can be used by policy makers and the public - the probability of seeing a max temperature above X is P. Good paper and well written.
+
+### Full Refs

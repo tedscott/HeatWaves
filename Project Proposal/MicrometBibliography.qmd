@@ -1,0 +1,229 @@
+---
+title: "Micromet Bibliography"
+format: pdf
+editor: visual
+---
+
+## Read Summer/Fall 2023
+
+[@novick2022]
+
+NbCS need to be addresed "holistically" at many scales and by merging many approaches (soil & tree counts, EC, Remote Sensing, etc) to truly assess viability, avoid unintended consequences, and reap the most benefit. The USA should coordinate between approaches and establish "gold standard" sites and data approach to be able to think system-wide. Aside: Worth noting that we don't have the organization level of an Ameriflux here in Canada - but we should?
+
+[@skeeter2022]
+
+Arctic wetland net C sink. Used ANN to estimate Reco and determine NEE since summer nights not dark and therefore can't use nighttime EC to get at Reco - was also better than chamber measurements. Used ANNs for feature importance (table 2) and weights. See Skeeter 2020 for more details on ANN approach.
+
+[@knox2014]
+
+Ag land is a net source of C vs wetlands for sites in Delta area of California. Used ANNs to gap fill data from EC by modeling with Met data and radiation. Newly restored wetlands show promise as a carbon sink and is a possible mechanism to convert prior Ag land. Old wetlands are already good sinks for CO2 and CH4 emissions low. Flooding inhibits ER overall.
+
+[@russell2023]
+
+Looked at tidal marsh at Rush Ranch, N California. Using times of drought to get at times when the marsh is saltier and then EC data for GPP, focus on CO2. Salinity especially due to drought inhibits GPP. Was most important feature in GLM and RF models. Had no effect on ER?
+
+[@perkel2023]
+
+Guidance for how to publish your data and code to be FAIR and open. Pretty straightforward. Have metadata. Potentially create full environment for running your code (Docker?).
+
+[@hemes2021]
+
+A push for Eddy Covariance (EC) measurement as a way to monitor ecosystems as part of NCS at different scales and the benefits of EC vs destructive methods. Focuses on non-forest solutions. Preaching to the choir here but presents a nice pro/con of each approach being used.
+
+[@badiou2011]
+
+GHG and carbon sequestration in wetlands measured via chamber and soil carbon. Found that wetlands can be net C sink despite methane emission in both restored and undisturbed wetlands in prarie pothole region. Temp matters as does precip/water levels. Used ANOVA to tease out importance. This was done entirely without EC, which is interesting.
+
+[@hemes2018]
+
+Restoring wetlands is not an accurate terminology - rehabilitating them is more correct. In Northern CA the Delta area wetlands being rehabilitated tend to be high CH4 emitters such that they are net C sources. These wetlands are managed by a controlled water table. CO2 and CH4 measured via EC. Gap-filled using ANNs. Data from 2012-2017 but some sites began restoration as far back as 1997. Used 100-year SGWP factor of 45 instead of the factor of 34 for CH4 to get CO2-equiv. Despite proximity, each site showed unique qualities and rates. Crucially, since we want to reduce GHG in the short term, it may be that rehabilitation of freshwater wetlands is NOT warranted even if over the long term (centuries) they will become net sinks.
+
+[@chamberlain2018]
+
+Used EC and compared two recently restored wetlands for CO2 and CH4 emission where one have alluvial soil and the other peat. The alluvial soil wetland initially had lower CH4 for 1-2 years with all climate drivers and productivity not likely causes. Main difference appeared to be soil types, specifically Fe (ferrous Fe2+) levels and lower pH initially inhibited methanogenesis. Used ANN for gap filling. Compared two restored wetlands to a mature wetland linear model to try to assess factors best correlating with CH4 emission. Message: pay attention to soil type, although after \~3 years both the alluvial and peat wetlands were similar so over decadal timeframe it may not matter. Note also that CH4 emission varied on the hourly, daily, and multi-day scale so EC was the way to go as opportunistic chamber measurements might miss things
+
+[@graf2023]
+
+Used a data set of FLUXNET2015 sites and investigated the impact of albedo and carbon seq (NEP) at each. Turns out that we really need to consider albedo AND carbon uptake when thinking about managing land for fighting warming. It is possible to optimize for both but models show optimizing for albedo gives us a short term boost of cooling but later issues with C uptake. They plugged their different scenarios to maximize either or both into CMIP6 models to understand timescales of impact. Given the rush to start cooling, perhaps albedo is something to focus on now. Teases that someone needs to look at other gases beyond CO2. \*\* enter my project \*\*
+
+[@matthews2021]
+
+Model paper using GCM. Nature based solutions can't do it alone due to changes in albedo but should be part of the mitigation plan. Need to revisit this paper again.
+
+[@thormann2006]
+
+As of the time of this paper, the role of fungi in C dynamics of peatlands is not well understood. Mycorrhizal and Sabrobic fungi seem to be the most important but there are gaps in our understanding of how they respond to: increased T, CO2 levels, post-fire, and changing hydrology i.e. warming permafrost
+
+[@hemes2018a]
+
+What are the biophysical changes from restoring a drained freshwater peatland? Will a restored wetland provide cooling? Looked into EC data from California Delta restored sites and a control agricultural site with alfalfa crop. Mainly compared T_aero, a modeled Temperature that should help compare across different sites with different canopy heights/water amounts/surface heterogeneity - to get at how the restoration age of the wetland is associated with surface temp at each site. Daily, the wetlands were cooler during the day but warmer at night than the alfalfa site, while seasonally the wetlands were warmers - all likely related to albedo and available water. Wetlands with pools and channels are cooler but managing to maintain these uses up water that may be needed elsewhere.
+
+[@cornelis2022]
+
+BC has a very wide diversity of soil types and a long history (incl Indigenous) of solid management practices along with the ALR to preserve agricultural zones. We need to continue to listen to science to best manage our soils ecologically so they can help to maintain biodiversity, sequester C, provide arable land to feed the growing population, and treat the soil as a non-renewable resource. Also, we need to do research into how soils respond to heat waves, fires, and other extreme climate events.
+
+[@chadwick2001]
+
+Read for LWS501. Sometimes soils are subjected to significant environmental changes and yet they exhibit no pedogenic shifts, aka pedogenic inertia is present. Other times, over short timescales, we get rapid changes that are irreversible, and cross a pedogenic threshold. The amount of SOM and movement of secondary minerals can happen over short scales, 1 - 10^2^ yrs, while large accumulation of secondary phases or oxides takes 10^5^ - 10^6^ yrs. Authors focus on the relevant chemical reactions and feedback mechanisms that change soil properties and use sites near Maui, HI as case studies. Lots of chemical reactions... Ultimately it comes down to thermodynamics as soils are open systems where energy and matter are always in flux. Humid or arid soils will be driven to be more acidic or alkaline, respectively, as neutral soil pH is unfavorable. Redox reactions control much of the pedogenesis but measurement is difficult and we often only know what was happening by the presence of certain structures (gleying, red blobs of iron oxide,...). This paper was hard - but the Conclusions section is a wonderful summary of these thresholds that drive soils in their evolution.
+
+[@hemes2019]
+
+Wetlands are seen as GHG source, sink, neutral in many studies. Older wetlands are usually sinks and the time to go from net source to sink can be 100 yrs or so. This paper looks at restoring agricultural lands that lie on former peatlands in the CA Delta by looking at EC data (CO2 and CH4) and chambers (N2O). Study is somewhat unique in that most peatland restoration study has been in further north regions. Hypothesized that these sites would be net GHG sinks and reverse soil subsidence. Lots of heterogeneity in site footprints and they used a variety of methods to estimate uncertainty in flux (should read the papers ref'd). net ecosystems carbon budget was consistently neutral to negative for wetland sites but the opposite for ag sites esp when accounting for harvested biomass. Yet, while these wetlands are consistently C sinks, their GHG budgets are positive because of CH4 emission, and the drained peat Ag sites are even larger GHG sources, esp when including N2O. Conversion from ag site to restored wetland efficacy depends on prior crop (e.g. alfalfa can be a sink, but rice is a source). Avg time for each of these converted sites to become GHG sinks range from 60 - 120 years but benefits are seen sooner as emissions are reduced. A good quote and takeaway: "Methodologies that are not based on direct measurement, and instead use conservative emission factors, can underestimate the potential emission reductions achieved, and thus jeopardize funding for restoration projects."
+
+[@chamberlain2019]
+
+Similar to Russell (2023) from our group, used times of drought to get at increased salinity and the effect on methane production and GPP (they use GEP). Used mutual information theory and transfer entropy to find potential causal relationships between GEP, Temp, and CH4 flux. Found large decrease in GEP with higher salinity but that is for CO2, the effect on CH4 emission was still a decrease but much smaller impact. Main drivers considered were gross photosynthesis and temperature. Methane flux becomes more temp dependent with salinity and less photosynthesis dependent with salinity. Wetlands that experience increased salinity can go from net sink to net source as photosynthesis is reduced more than CH4 emission is reduced.
+
+[@prescott2021]
+
+(read for LWS501) Paper focuses on the formation of soil organic matter in forested areas and the pathway from decomposition of the litter on a forest floor (all plant and animal material) to it being sequestered in the mineral soil layers. Argues that decomp and development of SOM have been studied separately and need to be done in conjunction. Firstly, they point out that the traditional method of bagging litter and incubating it is missing some of the products of microbial and faunal transformation - need to assess these additional pathways to determine the mass of material that could have been sequestered. Depending on the site and the conditions, fauna, fungi, microbes, and faecal matter from the smallest to largest fauna are not well accounted. Each of the actors in decomposition have signfiicant parts of the process (site-dependent) and that we may not be truly accounting for each and missing some SOM in our counting.
+
+[@ohalloran2011]
+
+Investigated the changes in CO2 emission and albedo for three forest areas (boreal and mangrove) from before and after a disturbance: hurricane, beetle outbreak, wildfire. Used radiative forcing models to get at the climate impact using NECB (net ecosystem carbon balance) determined from EC measurements where possible, and MODIS imagery for albedo when EC data is missing (e.g. Florida mangrove post hurricane). For the mangrove, the forest had not recovered in 5 yrs and the RF was a net warming, whereas for the beetle-damaged forest and wildfire-damaged forest the increased albedo from visible snow and new growth offset the CO2 released during the damage event and afterward, up to 14 years for the beetle disturbance, and after 60 years for the burned forest. Key point is that the type of disturbance and the forest properties will determine the RF impact and not all disturbances are equal.
+
+[@reichstein2005]
+
+This is the introduction of the 'MDS' gap-filling method for EC flux data. They challenge the idea that long-term temperature data/trends can be used to form a basis for predicting the behavior of R~eco~ when partitioning NEE into GPP and R~eco~, and they also say blindly using night-time measurements for R~eco~ are also likely to be wrong, especially at high latitudes in summer (duh). They develop a model that uses short-term temperature sensitivity of R~eco~ and find it does a better job especially across different site types (they considered Boreal vs Mediterranean, grassland, and a couple of crop sites in the USA), and show how it can be used for gap-filling and also R~eco~/GPP partitioning. Many use this model today, but even in the paper they caution that chamber measurements should be used at each site to confirm/measure any biases.
+
+[@baveye2023]
+
+Short paper that attacks the misuse of the terms "soil carbon storage" and "soil carbon sequestration" as being equivalent or interchangeable. Using the kinetics of soil carbon chemistry they show that for soils that have added carbon inputs (crop residue on ag fields) by farmers, only a fraction of the inputs are stored and mineralized and even less is bound in such as way as to hide from microorganisms (bound to soil reactive surfaces of clay and oxides, transformed into organo-mineral complexes, or trapped in pore spaces) and be "sequestered". They also find that the amount of carbon sequestered diminishes over time even if continued inputs are applied and especially if they are stopped. They also implore research into whether there is a level of saturation and express concern in creating a system of carbon accounting that assumes continuous and infinite absorption and point out it may become economically unfeasible for farmers if what is tracked is the actual amount of carbon sequestered. Provocative.
+
+[@kim2019]
+
+They investigated several different approaches to fill gaps in methane flux in eddy covariance data. Sites considered included Burns Bog (low U_star site), Twitchell Island in California (non-stationary CH4 flux - increasing), a tropical wetland in Brazil (high seasonality - only emitting during inundation season), and two rice paddy sites in Korea (managed ag sites with seasonal draining and high variability). They tried MDS, SVM, ANNs, and RF, along with PCA before using any of the ML algorithms or MDS and created artificial gaps of various lengths while training. MDS, while popular, doesn't work well for long gaps (which is known) but with PCA it did better. ANNs and SVM showed considerable bias depending on gap length and frequency, but RF performed consistently best and handled variable gap frequency, length, and non-stationary fluxes well. Worth noting that In the supplementary material they also employed Fourier series but as expected it doesn't work well for non-stationary fluxes. The recommend RF overall and saw that lagged WTH (WTD) was the most important feature for the modeling, along with soil temp. Depending on the site's flux variability, training with a year or multiple years can help.
+
+[@crowther2019]
+
+Read for LWS/Soil 501. Focuses on the distribution and function of soil communities globally and looks at patterns. Very relevant quote: "Different soil communities process organic matter at very different rates and can fundamentally change the relationship between extrinsic environmental drivers and soil community functioning". Microbial community transplanting can help restore degraded regions. Globally, Fungi have roughly double the biomass of bacteria (12 Gt vs 7 Gt) and the presence and distribution of both (along with other organisms) helps control the turnover and processing of SOM. They tend to be located where higher amounts of SOM exist (high latitudes) and prefer lower pH, which is the opposite location of where the bulk of aboveground biomass is located, and where most SOM turnover happens, a surprising observation, but if data is controlled for temperature and soil moisture, then the largest microbial biomass coincides with the greatest turnover. Fungi are more common in slow decomposition environments/colder/higher latitudes, associated with trees, while bacteria are associated with faster growing grasslands as they process nutrients more quickly, and overall the fungi:bacteria ratio aligns with the C:N ratio, so more carbon-\> more fungi. In each ecosystem type there are common gene expressions across the different biota. Earth system modeling doesn't account for soil community characteristics well due to a lack of global data adn the use of simple linear mechanisms but the response of soil communities to climate change is essential to understand and needs to be added to modeling or we may miss significant effects.
+
+[@flanagan2020]
+
+Using chamber and EC measurements, the authors attempt to measure the methane and CO2 emission in a cottonwood stand. They found that the trees may emit as much methane as the soil takes up during the daytime, such that these two offset each other. They also found that at night the forested area built up a large storage of methane that would later flow to the atmosphere once turbulent conditions began during daytime. Some of that nighttime methane may have been sourced from a nearby river. Main point of interest for me is that the trees EMIT methane (and CO2) at levels that while small (17.4 mmol CH4/m^2^ over the growing season, compared to 100's to 1000's for wetlands per annum) is not negligible.
+
+[@nyberg2022]
+
+Comparison between two bog sites (BB1 and BB2) at Burns Bug - one (BB1) actively re-wetted from drainage inhibition and the other (BB2) passively re-wetted from the activity of fauna and minor drainage inhibition. While BB1 is a slight CO2 sink and BB2 roughly neutral, overall the actively re-wetted site emitted more CH4 on an annual basis. At BB2 the GPP and Reco are higher than BB1. The used both the SGWP multiplier and a RF model to get at the 20, 100, and 500-year projections on radiative forcing esp due tot he CH4 emission. On the 20 and 100 year time horizons, both sites are net sources but by 500 they are both sinks due to the dominance of CO2 impact on that timeframe. Used linear regression to get at variable importance, with TS being the best for CO2 flux, and a minor contribution from WTH (maybe just a measure of overall dryness?). The best model for FCH4 included TS, GPP, and WTH although FCH4 vs WTH was non-linear as FCH4 decreased once the WTH rose to or above the surface.
+
+[@seddon2022]
+
+Short review of the research into nature-based climate solutions (NbCS) for climate change. Care must be used when assessing and implementing NbCS. While important, they might only offset about 0.3° C from now until 2100, so we really need to focus on emission reduction. However, a combination of NbCS and engineered approaches are needed to address low and high intensity hazard scenarios (flooding), but for low intensity, NbCS can be more cost effective. This also means they may be the best choice for lower income countries. Also, protecting existing ecosystems is more effective than restoring lost or damaged ecosystems (4Gt CO2/yr vs 2Gt CO2/yr). Countries with large emissions (who often subsidize fossil fuel companies) are also using NbCS for greenwashing to allow continued emission or dimished effort to decarbonize, esp when used for carbon offsets. Projects should not be top-down but need to work within the communities and Indigenous groups impacted or who currently manage the land. Low-diversity commercial plantations end up causing more harm than benefit. Need to avoid commodification of nature in the process.
+
+[@matthews2023]
+
+The authors revitalize the idea of the tonne-year method of accounting for the effect of stored carbon (temp or permanent) on the climatic response where a tonne-year is "one tonne of carbon stored in a carbon reservoir for one year". They propose to constrain the definition to only a physical metric and not tie it to equivalency factors to permament storage in carbon offsets. They also find a relationship with degree-years so that they can investigate, via climate models (the UVic one), the response of the climate to temporary carbon storage in a NbCS or permanent storage. They consider scenarios where carbon is stored temporarily and then re-emitted (either because of disturbance to the NbCS or on purpose) and the timing of that re-emission relative to peak warming. Temporary storage can be beneficial as long as it is maintained past the peak. Permanent storage is of course far more effective. They propose that using tonne-years as a metric will allow for monitoring and managing planned efforts to draw down GHGs. If a fire releases a measurable quantity of carbon then an equivalent storage in another ecosystem could be used to offset it knowing the overall impact, for example. The also point out that using equivalency factors (between temp storage and permanent storage) and economic discount rates for accounting are bound to overestimate the benefits of a temporary storage (e.g. delayed deforestation). They reiterate that NbCS can't do it all and fossil fuel emissions must reach net zero to limit peak temperature. For modeling, they assume the SSP1 1.9 and 2.6 targets are applied (shared socioeconomic pathways and associated RCP (representative concentration pathways), which lead to radiative forcings), which seem ambitious given how things are going right now. I hardly ever see the SSP1 1.9 being mentioned anymore?
+
+Key conclusion: "If the total number of tonne-years increases linearly or faster than linearly until the time that fossil fuel CO2 emissions reach net zero, then the resulting temporary land carbon storage would lower the peak temperature that is reached. However, if the rate of tonne-year accumulation slows and decreases to zero before net-zero fossil fuel CO2 emissions are achieved, this temporary land carbon storage would have no effect on peak warming."
+
+[@lehmann2015]
+
+The soil continuum model (SCM) in Lehmann & Kleber (2015) moves us away from the prior thinking that macromolecular blobs of "humified" organic matter exist in isolation from the biodynamic parts of the soil profile, or that portions of litter input are ignored by microbes as energetically unfavorable for decomposition. Instead the observed evidence supports a continuum in both organic matter size and usable energy, from the largest initial plant/animal matter to the smallest molecular size, with a community of decomposers selectively capable of using the energy from OM at all sizes. Throughout the continuum, OM is processed by decomposers, further oxidized, and increased in solubility, meaning as OM size decreases there is increased adsorption onto clay minerals and incorporation into aggregates, the latter two of which are reversible processes depending on environmental factors. Using this continuum model can allow for a better mechanistic connection between the temperature rise from global warming and the measured response of the carbon in soils. Perhaps the key distinguishing feature of the SCM is that it embraces dynamism in soils and soil processing, so that we no longer need to argue about the egg and the chicken.
+
+[@ahlswede2022]
+
+Consideration of growing a forest of loblolly pine vs switchgrass and what the eventual fate of each as a harvest has as an impact on radiative forcing. Focus on EC measured NEE and albedo changes between crop types and age of each between harvests (30 yrs for pine, 10 yrs for switchgrass). Gist is that it depends on what the fate of the products are - is the wood stored in structures or does it get released to the atmosphere (fire), but in general when looking at the NEE vs radiative forcing from albedo it is barely break-even for pine forests harvested for use. Did not consider how changes in evapotranspiration may offset albedo changes, but found that ET for both crops was similar at a couple of the sites considered. Also didn't consider biogenic VOCs (BVOCs) that cause "Blue Ridge Haze", e.g., where these aerosols might cause cooling and pines emit more BVOCs, which could offset some warming due to the radiative forcing. As the authors conclude: "I*n conclusion, while the pine ecosystem absorb more carbon than switchgrass, the difference in albedo was large enough to result in similar climate mitigation potential at the 30-year horizon between the two systems, whereby the direction and magnitude of radiative forcing depends on the fate of harvested carbon."*
+
+[@cook-patton2021]
+
+Guidelines for restoration and protection to fight climate change. NCS should be assessed via a hierarchy with protection of existing ecosystems as the top priority and with the greatest potential mitigation potential, followed by improved management, and the restoration, which usually has the highest cost relative to the benefit. There are competing objectives depending on context and "who" is implementing the NCS, e.g. a corporation may want to appear to be "doing something" and so chooses restoration, but we should keep our focus on protection. Additionally, when thinking about NCS as providing carbon offsets "GHG offsets should (1) only be used after an entity has implemented all the possible emission reductions from their footprint, (2) ensure that environmental issues are not exported from one community or sector to another, (3) equitably and fairly benefit local communities, and (4) be planned with the NCS hierarchy in mind."
+
+[@kondrashov2006]
+
+Used SSA and MSSA to fill gaps in a few different datasets from geophysical areas: oceanography, hydrology, atmospheric sciences, and space physics, global sea-surface temperature, flood-water records of the Nile River, the Southern Oscillation Index (SOI), and satellite observations of relativistic electrons. Describe an iterative approach using 1 PCA mode iteratively until convergence, then adding additional modes to build up a baseline. Once a reasonable baseline time series is built, they experiment with the lag and number of modes to generate the best reconstruction of the original series both by visual inspection and by using artificial gaps and MSE to identify the best parameters. Point out that the algorithm does not work well for noisy/spiky data as it struggles to capture fine scale, but that it can be used to fill even long gaps with at least a qualitatively correct pattern.
+
+[@zhao2020a]
+
+Used SSA to fill soil respiration data obtained via automated chamber methods. Found it worked better than or equally as well as regression modeling via NLS and via NN and outperformed them both on short gaps. It gave similar performance on medium to long gaps of up to 15 days. Recommend the method for gap filling especially when meteorological data are missing from which to perform regression.
+
+[@alongi2012]
+
+Mangrove forests in coastal areas are critical ecosystems for protection, restoration, and afforestation. They store immense quantities of carbon relative to their area, primarily as submerged dead roots, and OM associated with clays in the silty soils. They are vulnerable to human disturbance for aquaculture (shrimp farming) and land use for tourism, and if disturbed can release significant CO2. Accurate measurement of the carbon stocks in global mangroves is difficult, but should be carried out in order to emphasize the need for protection.
+
+[@wilkinson2023]
+
+Northern peatlands are resilient in the face of degradation due to drying/warming/destruction and fire events but if both the number and severity of fire events increases with climate change, analysis of Monte Carlo simulations suggest by 2100 they could transition from being a net sink for carbon (NEE + CH4 considered) to a weak source and this is concerning due to the potential for warming. Restoring existing peatlands has the potential to mitigate this risk and even increase the sink status for these peatlands over the same timeframe.
+
+[@FLUXNETCH4SynthesisActivityObjectivesObservationsandFutureDirections]
+
+Methane is important, 2nd most important GHG next to CO2. CH4 levels are increasing. The authors collected data from 200 global EC flux tower sites and followed similar processing, gap filling, and final product procedures to create a unified and useful data set for exploration and assessing methane across different ecosystems and timescales. The tropics are under represented. To analyze temporal relationships need to use methods that can address the ephemeral nature of methane emissions, such as wavelets. More sites are needed to get a better global picture.
+
+[@davidson2021]
+
+Investigation of the effect on methane emission from sulfate concentration and WTD on a constructed wetland (fen) in the Athabasca Oil Sands region of Alberta. Used manual chamber measurements over a seven year span with a focus on the methane vs sulfate question in year 7 (2019). Using mixed effects statistical modeling, they found that higher sulfate levels corresponded to lower methane emission but did also see an overall increase in methane in the final two years of the study so some question as to the reliability of extrapolation. Given that they used chamber measurements and annual averages I'm a bit concerned as to the validity for the entire ecosystem but it seems fair to trust the relationship between sulfate and methane in general.
+
+[@knox2016]
+
+Longer term study of a rice paddy in the Delta area of California. Used EC measurement for FC and FCH4 and looked at the impact of changes in management over 6.5 years of growing and harvest. Found that GEP (GPP?) was tied to the diel pattern of CH4 flux but that Reco was tied to the amplitude of the diel pattern. Over the years of study, the temps generally warmed (T_soil and T_air mean) and saw an increase in overall Reco, GEP, T_soil along with that temp increase. Looked at FCH4/GEP ratio and saw an increase with T_soil. Hint at the need to look at this ratio more over longer time as it may tell us something about how much carbon is being partitioned into CH4 by the ecosystem over time and with temp increase. Used ANN to look at dominant drivers of CH4 flux because non-linear and got some decent fits with GEP and WTD during growing season but didn't see T_soil impact except with the amplitude of diel pattern (unlike for wetlands where T_soil tends to be strongly connected with FCH4).
+
+[@yvon-durocher2014]
+
+Methanogenesis is strongly temperature-dependent and to a greater degree than ecosystem respiration and photosynthesis. This means that as the climate warms we will see more emission from ecosystems in the form of methane. Additionally, the ratio of CH4/CO2 emission increases with temperature, meaning with warmth we will partition to greater CH4 emission, which has greater potency on warming especially on shorter timeframes (decades to century).
+
+[@knox2021]
+
+Dominant predictors of methane production in freshwater wetlands are temperature (soil and air) where temperature ranges exist (temperate and subtropical ecosystems) with WTD the second-most important predictor. In regions with small temperature swings (tropics) then WTD becomes the most important predictor. Both are related to enabling or increasing methanogenesis.
+
+[@hsieh2023]
+
+Textbook used for EOSC 510 course taken in Fall 2023.
+
+[@hu2024]
+
+Authors look into the change in CH4 and CO2 emissions from wetlands (global data set but mostly N hemisphere) as T increases using soil carbon measures, especially C/N ratio. Using a mixed effects model they tease out an activation energy for CH4/CO2 emissions to use an Arrhenius law for extrapolation. They found that higher C/N ratio (\> 21) wetland soils do not show a marked increase in emission but those with low (\< 12) C/N ratio are very sensitive to temperature and emissions increase for those wetlands. "only 23% of global wetlands will decrease methane relative to carbon dioxide emissions". They also test their model on soils from rice paddies in eastern China incubated in the lab and roughly confirmed their findings.
+
+[@irvin2021]
+
+Authors (incl Sara) compared MDS, ANN, RF, XGBoost, and Lasso regression for gap-filling methane EC data. Two interesting methodological changes - artificial gap creation using sample gap-lengths from the measured distribution of gaps in the raw data, with a statistical approach to ensure a balanced result that produces gaps + artificial gaps that have a distribution that matches the raw data. Good for training/testing of models and the main output of the paper is a prescribed workflow for reproduceability and a Python package for others to use. In the end they conclude that using lots of drivers and RF is the optimal approach for speed, ease, and interpretability but caution that drivers can be site-specific. T_soil still generally wins out, and WTD matters for sites with large swings in WTD. Oh, also, they have a good section on uncertainty determination and how using model ensemble variation can work but can also underestimate the real uncertainty and instead recommend using "calibration and sharpness". Methods are in the supplementals.
+
+[@mavrovic2024]
+
+Using measures via syringe in snowpack over boreal and arctic ecosystems (forest and wetland) they found measureable methane fluxes from wetlands and that forests were, in general, still sinks. Found a few hotspots as well. Soil water content appeared to be strongly correlated with methane but as they could only measure very near surface T_soil, they are not conclusive about the importance of soil temp. Still they caution modeling methane flux in biosphere models as a function of soil temp as their study doesn't provide evidence for it as a significant driver.
+
+### Each of these needs more in-depth reading and annotation - except maybe not with the switch from EC work to Climate?
+
+[@eddycov2012]
+
+Chapter 1 - discussion of the method, history. Lots more to read.
+
+[@rejmankova1996]
+
+Methane emission and sulfate chem
+
+[@juutinen2018]
+
+Effect of other soil amendments on methane production in peat lands
+
+[@mitsch2012]
+
+[@saunois2020]
+
+[@neubauer2015]
+
+[@petrescu2015]
+
+[@zhang2023]
+
+[@schaefer2016]
+
+[@nisbet2019]
+
+[@dalcinmartins2017]
+
+[@bansal2023]
+
+The mother lode - essentially a short textbook on wetlands and carbon cycling. Need to read in its entirety.
+
+[@baldocchi2003]
+
+Foundational paper on eddy covariance as a technique covering the newest high freq instrumentation and data processing of the time
+
+[@delwiche2021]
+
+Same but different approach to using the FLUXNET-CH4 data set as in Knox et al 2019 BAMS paper. Considered all sites.
+
+[@were2019]
+
+[@pennock2010]
+
+Chamber-based study of wetlands and ponds from Prairie Pothole region. Found decrease in methane with increased sulfate concentration. Also looked at N2O. Need to read fully.

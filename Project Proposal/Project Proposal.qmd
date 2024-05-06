@@ -1,0 +1,43 @@
+---
+title: "GEOS 500 - Research Proposal Draft"
+author: "Ted Scott"
+format: pdf
+editor: visual
+bibliography: references.bib
+---
+
+## **Ted Scott, PhD Proposal**
+
+### *Applying freshwater wetlands as nature based climate solutions to address climate warming and urban design - the rules of thumb*
+
+#### Introduction
+
+Freshwater wetlands have promise as nature-based climate solutions (NbCS) but a wetland consistently acting as an annual net sink for carbon is not guaranteed, especially as the climate warms [@hemes2018; @hemes2019; @hemes2021]. Typically, freshwater wetlands act as net sinks for CO~2~ and then are minor sources to more significant sources of CH~4~, a gas that has a higher short-term impact on warming than CO~2~ and one that deserves attention as we try to "bend the curve" in the vicinity of 1.5°C [@knox2014]. Focusing on the methane emissions, if we could manage wetland ecosystems to at least keep them "climate neutral" on the short term, societies could gain from the boosts in biodiversity, local cooling, and when located within population centers, they provide the psychological benefits of having access to natural spaces [@seddon2022; @hemes2021]. Once wetlands are established, the long-term growth of GPP will continue to draw down CO2 levels, affecting the long-term warming trends as well [@nyberg2022]. 
+
+A challenge for land managers, conservationists, and municipalities looking to use NbCS to reach their net-zero goals is the level of control over the dominant drivers of greenhouse gas (GHG) emission and the associated costs [@cook-patton2021]. The frequently cited main driver of methane emissions from wetland ecosystems, soil temperature [@badiou2011; @hemes2018a; @kim2019], is likely not one that can reasonably be manipulated, and given the lack of control, may prevent the rehabilitation or development of wetlands in warmer regions or those with wide seasonal ranges in temperature out of the belief that it could be fruitless or not cost-effective relative to reforestation or afforestation, a popular choice of NbCS [@graf2023; @matthews2021; @novick2022; @seddon2022]. However, there are a number of important drivers of methanogenesis in wetlands beyond soil temperature, and proxies that can have an indirect effect on soil temp that can be controlled or manipulated. Some of the highly correlated drivers include water table height [@nyberg2022], hydrologic export/import and the impact on sulfate concentrations in the water and soil solution [@rejmankova1996; @davidson2021], salinity [@chamberlain2019; @russell2023], OTHER water chemistry factors [@juutinen2018]. And, the indirect or proxy drivers where we can exert some control include albedo, vegetation choice and the effect on NVDI+SIF or other vegetation indices, the degree of heterogeneity of the topography, and in the fully-constructed environment, the surrounding canopy species and incoming solar radiation. Additionally, in the urban environment we have control over landscape maintenance practices which can affect emissions \[J. Ahongshangbam *pers. comm.*\]. 
+
+**Data**
+
+I will use a data set of eddy covariance tower flux measurements and associated environmental factors that includes the mentioned biophysical variables, especially the more easily manipulated ones. There should be hundreds of site-years worth available from the Ameriflux consortium, the FLUXNET-2015 database, ICOS sites, and we have at least two candidate sites of our own in Manitoba (YOUNG, HOGG) that differ in both sulfate water chemistry as well as topography, but are otherwise proximal and with nearly identical climate factors.
+
+**Methods**
+
+I want to use reliable and easily interpreted methods to measure the effects of these biophysical drivers and determine the most appropriate manipulatives. To satisfy those criteria, I'll consider (1) ML classification algorithms: binary classification (source/sink) via logistic regression and multi-class (big source, minor source, neutral, minor sink, big sink) and (2) regression models with these drivers above to tease out the best predictors of GHG emission if soil temperature is held constant. Data exploration will allow me to determine the appropriate thresholds for the multi-class classifier and I can tie each class to global-warming potentials and radiative forcing [@nyberg2022]. I'll need to control for interaction with soil temperature to ensure it isn't confounding my results in the models. I'll use classification and regression algorithms from tree-based models as they are more easily interpretable and not a "black box" (like a neural network model would be) even if this means compromising model performance slightly. They also have the benefit of ranking variable importance and allow for interaction variables (combinations of variables like water level + sulfate concentration together rather than considering each variable as though it is uncorrelated or unconnected with others).
+
+**Outcomes**
+
+[Guidelines for Ongoing Measurement Practices]{.underline} - while I will use data from the eddy covariance method (EC) to find the most easily controlled biophysical features, ecosystem managers aren't going to install an expensive EC tower on every site, so I will also need to determine what they should measure to "stay on track" using lower cost instruments. This should be an opportunity to learn chamber measurement techniques for myself.
+
+[Estimated Costs]{.underline} - I'll also need to understand the cost to manipulate each feature to come up with the "budget" for each in wetland management practices. A goal is to Identify the best "bang for the buck" manipulatives.
+
+[Product]{.underline} - I'll develop a set of guidelines based on the best available science that will lead to an easily understandable set of "rules of thumb" for freshwater wetland management. It should include a flow/decision chart that could be used by managers to make adjustments. Ideally, I'll identify a pilot site or sites for implementationbut hopefully the data set will be enough evidence. (Pilot sites are for the post-doc/faculty stage)
+
+#### Summary
+
+Rehabilitation and construction of freshwater wetlands has the potential to mitigate climate warming through reduced GHG emission or even encourage wetlands to function as a net carbon sink thereby counteracting warming. In addition, improving and creating wetlands can increase biodiversity, provide local cooling and green spaces for urban "nature bathing", and reduce flood risk in coastal areas [@seddon2022]. Care must be taken to manage these spaces such that they do less harm than good with respect to climate and several factors control this delicate balance, or "biogeochemical compromise" [@hemes2018]. Land managers and conservationists would benefit from a simple set of guidelines that takes away much of the mystery out of wetland management so that these ecosystems can be harnessed by communities to reach their net-zero goals and benefit from the boosts to human health and well-being. The result of my work will do just that, prioritizing the most impactful management choices with cost consideration, using the best available science on the most easily controlled environmental factors. While nature-based climate solutions must be employed alongside substantial emissions reductions to address our warming climate, they are an important piece of the portfolio of actions society must take if we are to succeed in reducing the harm from years of inaction.\
+
+**References**
+
+\
+\
+\

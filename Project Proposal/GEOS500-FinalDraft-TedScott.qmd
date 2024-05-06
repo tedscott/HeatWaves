@@ -1,0 +1,21 @@
+---
+title: "GEOS 500 - Final Proposal Draft"
+author: "Ted Scott"
+format: pdf
+editor: visual
+bibliography: [references.bib, citationExport-bams-d-18-0268.1.xml.bib]
+---
+
+## Methane emission from freshwater wetlands: complete data sets, the impact of water chemistry, and the response to a warming climate
+
+A PhD Research Proposal, by
+
+## Ted Scott
+
+Department of Geography
+
+University of British Columbia, Vancouver
+
+December, 2023
+
+### Introduction

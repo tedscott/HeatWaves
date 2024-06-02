@@ -67,8 +67,26 @@ The authors model a physical mechanism for a limit on extreme temps at the surfa
 
 The authors demonstrate a system for using weather data from stations (collected in a dataset "E-OBS" 0.5$^{\circ}$ x 0.5$^{\circ}$ for Europe) to measure climate change by building the CDF of a sliding 9 year time window and comparing two or more of these time windows. If the smallest change in probability for a given mean temperature (or min temp in winter) is still large over a wide span of years (e.g. 1954-1963 vs 1997-2006) then they assert this is a robust measure of a change in the probability of seeing a new max temperature, indicating a change. They use this approach to get around the non-stationarity of temp distributions under warming. They show that for some regions, like Bordeaux, the change is significant while for others, like Lisbon there is almost no change. The goal is to provide "useful" measures that can be used by policy makers and the public - the probability of seeing a max temperature above X is P. Good paper and well written.
 
+### Season Length Papers
+
 [@wang2021]
 
-The authors analyze HADGHCND data (3.75\$\^\\circ\$ lon x 2.5\$\^\\circ\$ lat) to investigate the apparent length of the seasons for **northern hemisphere land** over 1952-2011 using specific definitions/thresholds for seasonal periods - above 75%-ile of daily mean T2m for summer, below 25%-ile for winter, and spring/fall as the transitions between those two seasons. They found summer increased from 78 - 95 days while the other seasons shortened over 1952-2011. They also used CMIP5 and CMIP6 multi-model sims for RCP4.5 & 8.5, and SSP2-4.5 & SSP5-8.5, respectively, to look at future season lengths out to 2100. The same overall trends in season lengths persist in the model simulations. Relevant quote "*there is good potential for a 166-days summer and 31-days winter in 2100"* under RCP8.5, which, while seemingly unlikely, is scary.
+The authors analyze HADGHCND data (3.75\$\^\\circ\$ lon x 2.5\$\^\\circ\$ lat) to investigate the apparent length of the seasons for **northern hemisphere land** over 1952-2011 using specific definitions/thresholds for seasonal periods - above 75%-ile of daily mean T2m for summer, below 25%-ile for winter, and spring/fall as the transitions between those two seasons. They found summer increased from 78 - 95 days while the other seasons shortened over 1952-2011. They also used CMIP5 and CMIP6 multi-model sims for SSP2-4.5 & SSP5-8.5, respectively, to look at future season lengths out to 2100. The same overall trends in season lengths persist in the model simulations. Relevant quote "*there is good potential for a 166-days summer and 31-days winter in 2100"* under RCP8.5, which, while seemingly unlikely, is scary.
+
+[@park2021]
+
+Another Northern Hemisphere (NH) focused summer season length study. This one is focused on considering how the summer length, onset, and withdrawal will change under 1.5 and 2.0 \$\^\\circ\$C warming using simulations from the "Half a degree Additional warming Prognosis and Projected Impacts project" (HAPPI) and model projections from CMIP5. They compared 2006-2015 vs projections, using ERA-interim data to compare with the simulations. For smoothing, they fit a fourth harmonic (Fourier series) to remove daily variability and then a 75th percentile threshold for "summer" although they used the HAPPI "All-Hist" runs rather than ERA-interim data itself  - instead they compared the HAPPI simulations with ERA-interim and got decent agreement. Summer length increases with warming and is projected to get proportionally longer in the lower latitudes in East Asia and the Mediterranean (near 30 \$\^\\circ\$N) versus higher latitudes in the NH (\> 50 \$\^\\circ\$N). Interestingly, they suggest that someone needs to "investigate summer expansion over oceans" but they haven't published anything on this (but there is a subsequent paper on the Southern Hemisphere out now).
+
+Some key findings:
+
+-   summer season expands by 10 (17) days for 1.5\$\^\\circ\$C (2.0\$\^\\circ\$C)
+
+-   asymmetry in warming rates between early and late summer - for regions that warm early the rate is lower
+
+-   Coastal areas tend to have relatively later onset andwithdrawal than inland areas, indicating its delayed response due to stronger influence of adjacent oceanswith large heat capacity (e.g. Mann and Park 1996).
+
+-   In the added days of onset and withdrawal the number of days warmer than the mean temp increases slightly
+
+-   the impact of similartemperature warming leads to smaller change in summerseason length over high-latitudes than in midlatitudes.
 
 ### Full Refs

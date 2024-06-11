@@ -87,7 +87,7 @@ Some key findings:
 
 -   In the added days of onset and withdrawal the number of days warmer than the mean temp increases slightly
 
--   the impact of similartemperature warming leads to smaller change in summerseason length over high-latitudes than in midlatitudes.
+-   the impact of similar temperature warming leads to smaller change in summerseason length over high-latitudes than in midlatitudes.
 
 [@lin2021]
 

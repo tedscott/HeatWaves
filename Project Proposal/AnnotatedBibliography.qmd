@@ -105,4 +105,8 @@ Using similar methods to that in Park et al (2018) \[not yet read\] and Park et 
 
 Read this one because it kept coming up as a source in the other season length papers and I can see why. The authors investigate the length of the "growing season" over 1950-1999 using observational data for land mostly extratropical NH and some small areas of SH with good coverage of Australia (data from HadGHCND (2.5 x 3.75 lat-lon grid daily min & max)) and HadCM3 model outputs for looking at forcing from GHG under various scenarios (like the RCPs but before those were created). They defined the start of the growing season as being above the mean daily temp for the grid cell. Smoothing via 3rd degree polynomial. They found the growing season is lengthening about 2 days/decade on average, with some regional differences (e.g. EU 2.1, NA 1.0) primarily due to an earlier onset of Spring. Using "optimal fingerprint analysis" they show the changes are primarily due to GHG forcing and are able to resolve internal variability. Using the HadCM3 model outputs they predict a continued lengthening that will include later withdrawal of the growing season (or later start of autumn) as well as a slow acceleration to the rate of lengthening of the growing season. One final interesting point - they suggest that the entire growing season isn't warming equally but that the warming at the start is higher due to feedback from earlier snowmelt and cite other sources.
 
+[@mann1996]
+
+[@trenberth1983]
+
 ### Full Refs

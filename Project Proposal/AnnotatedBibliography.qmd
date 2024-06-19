@@ -107,6 +107,16 @@ Read this one because it kept coming up as a source in the other season length p
 
 [@mann1996]
 
+An early paper comparing observational data with model simulations and predictions for the changes in the amplitude and phase of the seasons in the NH that appears to be a response to a paper the prior year (Thompson, 1995) suggesting seasonal cycles are being impacted by "the greenhouse effect". Using a simple model for the seasonal cycle of the form $A(t) cos(2 \pi t + \theta (t))$ they analyze a monthly temperature data set (Jones 1986, 1994) and statistical methods to downscale to daily resolution to pull out trends in amplitude and phase between 1854-1990. The observational data show an overall decrease in amplitude and increase in phase (earlier arrival) of the temperature crossing the mean temp ("summer") over land in the NH with some regional variations. Interestingly, the GFDL models they compare to show the correct general change in amplitude but get the phase change wrong. The authors attribute this discrepancy to the implementation of ice-albedo feedback and greenhouse gas forcing in the models. They cautiously attribute the apparent earlier snowmelt and runoff effects $\rightarrow$ greenhouse warming as a cause for the amplitude decrease with time. They also assert that there is a different lag in the response to insolation between ocean, land, and margins due to the thermal capacity of the oceans vs land. Ultimately they conclude that "the observed trends in the seasonal cycle represent a combination of internal variability, enhanced greenhouse effects and external forcings." And say they need better models \[in 1996\]!
+
 [@trenberth1983]
+
+Trenberth compares the available global observational data on mean monthly surface temperature with a seasonal cycle as defined astronomically (orbital positions/solstice-equinox), meteorologically (three calendar months JJA or DJF), and temperature thresholds that divide the year into the warmest/coldest/transition seasons. He notes that these definitions are really only applicable to the mid-latitudes since the poles and tropics show a division into two seasons is more appropriate. He points out that the results are not really new but what he offers is a new framing of "the effects of continentality" vs not. He models the monthly data with a Fourier series to look at the first three harmonics for amplitude, phase, and variance explained). Similarly to the paper by Mann & Park (1996) he states that the amplitude generally increases with latitude owing to the difference in heat capacity between land & ocean with a peak around 60$^\circ$ NH and 80$^\circ$ in the SH, matching the distribution of land in each hemisphere. For the lag in peak temp relative to the solstice he shows the NH (mid-lat) at 32.4 days and the SH at 44.0 days, also connected to the greater area (volume) of water at mid-latitudes in the SH. Some key points:
+
+-   continents tend to be warmer than oceans in summer and colder during winter
+
+-   the mean temp and lag over NH mid-latitudes would be better for defining the seasons for the USA (and Europe/Asia is implied)
+
+-   in the SH the astronomical definitions and timing work quite well given the impact of the oceans
 
 ### Full Refs

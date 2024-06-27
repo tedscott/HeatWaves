@@ -119,4 +119,8 @@ Trenberth compares the available global observational data on mean monthly surfa
 
 -   in the SH the astronomical definitions and timing work quite well given the impact of the oceans
 
+[@peña-ortiz2015]
+
+Using the E-OBS dataset of daily temps on a 0.5x0.5 grid the authors try to assess the changing length of summer for Europe, which they consider as land between 25-75 $^{\circ}$N and 40$^{\circ}$W - 75$^{\circ}$E. They analyzed 1950-2012 for both baseline and analysis years, and used the mean T for June and the mean T for September as the threshold for being in and out of summer, respectively. For smoothing, they used a 30-day moving average, and then checked whether that average was above or below $T_{june}$ or $T_{sept}$ to decide on the point of onset or end of summer with length between the two. They did compare their results to two other somewhat independent data sets to ensure similar findings (NCEP-NCAR, and HadGHCND). They also looked at correlation with the phases of the Atlantic Multidecadal Oscillation (AMO). Broadly, they found an increase in summer length since 1979 (6.3 days/decade!), but a decrease from 1950 to 1979 (-4.5 days/decade), leading to a slight increase from 1950-2012 (2.4 days/decade). They found correlation with both the AMO phase and also with overall increase in mean temp from global heating. To support the possible connection with AMO they used PCA and found the leading mode, which explained over 50% variability, was similar to the AMO phase. Europe overall was not uniform in the summer length changes, rather there were regional differences, which they attribute to topography and possibly atmospheric dynamics.
+
 ### Full Refs
